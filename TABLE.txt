@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T_A_B_L_E</title>
+    
+    <style>
+
+        table,td{
+            border-style: outset;
+            background-color: blueviolet;
+            width: 45%;
+            color: white;
+            padding: 8px; }
+            th{
+                border: outset;
+                padding: 10px;
+            }
+            tr:nth-child(even){
+                background-color: antiquewhite;
+            }
+    </style>
+</head>
+<body>
+    <table>
+        <tr style="height: 45px;">
+            <th style="width: 10%;">SNO</th>
+            <th >Name</th>
+            <th > Roll NO</th>
+            <th >Year</th>
+        </tr>
+        
+        <tr><th>1</th>
+            <td>G.Kumar Raja Sai</td>
+            <td>21481A0579</td>
+            <td>4<sup>th</sup>year</td>
+        </tr>
+        <tr><th>2</th>
+            <td>G.Harshitha</td>
+            <td>21481A0581</td>
+            <td>4<sup>th</sup>year</td>
+        </tr>
+        <tr><th>3</th>
+            <td>k.Karthikeya</td>
+            <td>21481A0500</td>
+            <td>4<sup>th</sup>year</td>
+        </tr>
+        <tr><th>4</th>
+            <td>G.Pvan Kumar</td>
+            <td>21481A0501</td>
+            <td>4<sup>th</sup>year</td>
+        </tr>
+        <tr><th>5</th>
+            <td>D.Phanindra</td>
+            <td>21481A0589</td>
+            <td>4<sup>th</sup>year</td>
+        </tr>
+
+
+
+    </table>
+</body>
+</html>
